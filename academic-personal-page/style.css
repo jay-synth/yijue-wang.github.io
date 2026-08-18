@@ -122,7 +122,18 @@ section {
 }
 
 .sidebar-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
   padding: 5px;
+}
+
+.link-icon {
+  flex: 0 0 auto;
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
 }
 
 .about {
