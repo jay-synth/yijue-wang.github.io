@@ -166,6 +166,12 @@ h2 {
   font-size: 2rem;
 }
 
+.full-list-link {
+  font-size: 0.48em;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
 .publications {
   margin-top: 90px;
   padding-top: 58px;
@@ -201,6 +207,12 @@ h2 {
 .venue {
   color: var(--muted);
   font-size: 0.94rem;
+}
+
+.author-note {
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-style: italic;
 }
 
 footer {
